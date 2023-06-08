@@ -1,10 +1,12 @@
 import {TypeAnimation} from "react-type-animation";
 import {FaInstagram, FaLinkedin, FaTwitter} from 'react-icons/fa'
+import bgDesktop from "../assets/bg-desktop.jpg"
+
 const Main = () => {
   return (
     <div id="main">
       <img
-        src="../assets/bg-desktop.jpg"
+        src={bgDesktop}
         alt="bg-dev"
         className="w-full h-screen object-cover object-left scale-x-[-1]"
       />
